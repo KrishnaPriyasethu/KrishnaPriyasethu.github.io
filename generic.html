@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Profile</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo"><strong>MY MED</strong></a>
+					<nav id="nav">
+						<a href="index.html">Home</a>
+						<a href="generic.html">Profile</a>
+						<a href="elements.html">Record</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+
+		
+		<!-- Footer -->
+		<footer id="footer" class="wrapper">
+			<div class="inner">
+				<section>
+					<div class="box">
+						<div class="content">
+							<h2 class="align-center"><b>Register Now!</b></h2>
+							<hr />
+							<form action="login.html" method="post">
+								<div class="field ">
+									<label for="name">Name</label>
+									<input name="name" id="name" type="text" required placeholder="Name">
+								</div>
+								<div class="field ">
+									<label for="email">Email</label>
+									<input name="email" id="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required placeholder="Email" title="Enter valid e-mail!">
+								</div>
+								<div class="field">
+									<label for="dept">City</label>
+									<div class="select-wrapper">
+										<select name="dept" id="dept">
+											<option value="">- City -</option>
+											<option value="1">Chennai</option>
+											<option value="1">Coimbatore</option>
+											<option value="1">Erode</option>
+											<option value="1">Salem</option>
+										</select>
+									</div>
+								</div>
+								<div class="field ">
+									<label for="name">Phone</label>
+									<input name="phone" id="phone" type="text" pattern="[789][0-9]{9}" required placeholder="Phone" title="Enter valid phone number"></textarea>
+								</div>
+								<div class="field ">
+									<label for="password">Password</label>
+									<input name="password" id="password" type="password" required placeholder="password"></textarea>
+								</div>
+								
+								<div class="field">
+									<label for="Date of Birth" style="text-align:left;">Date Of Birth</label>
+									<input name="date" id="name" type="date" required placeholder="date" style="align:left;"></textarea>
+								</div>
+								
+								<div class="field half">
+									<li><input value="Submit" class="button special" type="submit"></li>
+								</div>
+							</form>
+						</div>
+					</div>
+				</section>
+				
+			</div>
+		</footer>
+
+					
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
